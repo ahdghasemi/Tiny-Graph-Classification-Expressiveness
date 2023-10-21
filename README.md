@@ -17,9 +17,9 @@ import torch
 This code uses the "PROTEINS" dataset from the TUDataset, which is a collection of graph datasets. The dataset is divided into training, validation, and test sets.
 
 #### Models
-1. GCN (Graph Convolutional Networks): The GCN model consists of three GCN layers followed by a linear classifier. It utilizes the GCNConv layer for graph convolutions.
+1. **GCN (Graph Convolutional Networks):** The GCN model consists of three GCN layers followed by a linear classifier. It utilizes the GCNConv layer for graph convolutions.
 
-2. GIN (Graph Isomorphism Networks): The GIN model consists of three GINConv layers, each comprising two linear layers, batch normalization, and ReLU activation. It uses global node aggregation to produce graph-level embeddings.
+2. **GIN (Graph Isomorphism Networks):** The GIN model consists of three GINConv layers, each comprising two linear layers, batch normalization, and ReLU activation. It uses global node aggregation to produce graph-level embeddings.
 
 #### Training
 The training process involves the following steps:
