@@ -277,11 +277,13 @@ def test(model, loader):
 
     return loss, acc
 
-# ... [Your previous imports and function definitions remain unchanged]
-
 def compare_model_size_and_time(model_name, before_size, after_size, before_time, after_time):
     print(f"{model_name} - Size Before: {before_size:.2f} MB | Size After: {after_size:.2f} MB")
     print(f"{model_name} - Inference Time Before: {before_time:.2f} s | Inference Time After: {after_time:.2f} s")
+    print('-' * 80)
+
+    print(f"{model_name} - Size Ratio: {after_size/before_size:.4f}")
+    print(f"{model_name} - Inference Time Before: {after_time/before_time:.4f}")
     print('-' * 80)
 
 
