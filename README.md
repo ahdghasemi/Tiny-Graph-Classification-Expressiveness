@@ -1,6 +1,6 @@
 # Graph-Classification-Expressiveness
 
-This repository contains code for graph classification using PyTorch Geometric, a library designed for handling graph-based deep learning tasks. It includes two models: Graph Convolutional Networks (GCN) and Graph Isomorphism Networks (GIN). The primary goal is to demonstrate the process of model training, pruning, and quantization, and their impact on model size and inference time.
+This repository contains code for graph classification using PyTorch Geometric, a library designed for handling graph-based deep learning tasks. It includes two models: Graph Convolutional Networks (GCN) and Graph Isomorphism Networks (GIN). The primary goal is to demonstrate the process of model training, pruning, and quantization, and their impact on model size in MB and inference time in second.
 
 ### Getting Started
 
