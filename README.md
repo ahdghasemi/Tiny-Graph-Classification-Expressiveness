@@ -1,4 +1,5 @@
-# This is the first part of my exploration to decrease GNN model size in different application. In this part, we only apply pruning and weight quantization.
+# This is the first part of my exploration to decrease GNN model size in different application. In this part, we apply both pruning and weight quantization to expressiveness in graphclassification..
+---------------------------------------------------------------------------------------------------------------------------------------------------------
 # Graph-Classification-Expressiveness
 
 This repository contains code for graph classification using PyTorch Geometric, a library designed for handling graph-based deep learning tasks. It includes two models: Graph Convolutional Networks (GCN) and Graph Isomorphism Networks (GIN). The primary goal is to demonstrate the process of model training, pruning, and quantization, and their impact on model size in MB and inference time in second.
