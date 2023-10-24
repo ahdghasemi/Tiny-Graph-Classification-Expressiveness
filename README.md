@@ -1,4 +1,4 @@
-# This is the first part of my exploration to decrease GNN model size in different application. In this part, we apply both pruning and weight quantization to expressiveness in graphclassification..
+# This is the first part of my exploration to decrease GNN model size in different application. In this part, we apply both pruning and weight quantization to expressiveness in graph classification..
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 # Graph-Classification-Expressiveness
 
