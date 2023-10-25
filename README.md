@@ -5,7 +5,7 @@ This is the first part of my exploration to decrease GNN model sizes in differen
 
 This repository contains two codes for graph classification using PyTorch Geometric, a library designed for handling graph-based deep learning tasks. each of these codes include two models: Graph Convolutional Networks (GCN) and Graph Isomorphism Networks (GIN). The code is written is PyTorch. The primary goal is to demonstrate the process of minimzing the size of trained model to be used on-devices such as phones and microprocessors. The used techniques are pruning, weight quantization, and dynamic post-training quantization. Both model sizes in MB and inference time in second are compared before and after applying techniques. 
 
-The code "" includes deploying pruning and weight quantization. In addition, the code "GNN_PyTorch_Geometric_Effective_Quantization_Final" include applying dynamic post-training quantization to the original code.
+The code "GNN_PyTorch_Geometric_Effective_Quantization_Final.py" includes deploying pruning and weight quantization. In addition, the code "GNN_PyTorch_Geometric_Effective_Quantization_Final.py" include applying dynamic post-training quantization to the original code.
 
 
 ### Getting Started
