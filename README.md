@@ -1,4 +1,3 @@
----------------------------------------------------------------------------------------------------------------------------------------------------------
 # Graph-Classification-Expressiveness
 
 This is the first part of my exploration to decrease GNN model sizes in different applications. In the first step, we first employed both pruning and weight quantization in  graph classification expressiveness. The model size decreases around 3 ~ 5%. In the next step, we deploy dynamic post-training quantization.
