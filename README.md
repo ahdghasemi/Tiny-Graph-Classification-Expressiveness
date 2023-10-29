@@ -51,6 +51,29 @@ Quantization is applied to the model weights to reduce their precision, further 
 #### Model Size and Inference Time Comparison
 The code allows you to compare the model size and inference time before and after pruning and after quantization. This comparison helps understand the trade-offs between model size reduction and inference speed.
 
+### Dynamic Post-Training Quantization
+
+In our quest to optimize GNN models for resource-constrained devices, we've introduced dynamic post-training quantization as a powerful technique. This step is implemented in the code titled **GNN_PyTorch_Geometric_Dynamic_Quantization_Final.py**.
+
+#### What is Dynamic Post-Training Quantization?
+
+Dynamic post-training quantization is a method for reducing the precision of model weights, making them more suitable for deployment on devices with limited computational resources. Unlike static quantization, which uses a fixed set of quantization ranges, dynamic quantization dynamically determines these ranges during inference based on the actual distribution of weights. This results in a more efficient model with minimal loss of accuracy.
+
+#### How it Works
+
+In the code, dynamic post-training quantization is applied to the GNN models after training and optionally after pruning. Here's how it works:
+
+1. After the model is trained and optionally pruned, we apply dynamic post-training quantization to the model's weights.
+
+2. During inference, the model uses the quantized weights, which reduces the memory and computational requirements.
+
+3. Dynamic post-training quantization adjusts the quantization ranges based on the weights' distribution, ensuring that the model maintains high accuracy while being more efficient.
+
+By integrating dynamic post-training quantization into our optimization pipeline, we further reduce the model's size and inference time while preserving the quality of graph classification.
+
+Feel free to explore the **GNN_PyTorch_Geometric_Dynamic_Quantization_Final.py** code to see how dynamic post-training quantization is applied and experiment with different configurations to optimize your GNN models for deployment on devices with limited resources.
+
+
 #### Graph Visualization
 The code also includes a function to visualize graph classifications for both GCN and GIN models. It shows how well the models are performing on a subset of the dataset.
 
